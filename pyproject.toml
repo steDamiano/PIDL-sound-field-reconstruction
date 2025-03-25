@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pidlsfr"
+version = "0.1.0"
+description = ""
+authors = [
+    "steDamiano <stefano.damiano@kuleuven.be>",
+    "fmiotello <federico.miotello@polimi.it>"
+    ]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.3"
+numpy = "^2.2.4"
+scipy = "^1.15.2"
+cvxpy = "^1.6.4"
+matplotlib = "^3.10.1"
+h5py = "^3.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
